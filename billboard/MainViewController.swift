@@ -16,16 +16,29 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red:0.38, green:0.75, blue:0.88, alpha:1.0)
+        
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(self.swipe(_:)))
+        swipeLeft.direction = .left
+        self.view.addGestureRecognizer(swipeLeft)
         
         box.backgroundColor = UIColor.darkGray
         
         self.view.addSubview(box)
         box.snp.makeConstraints { (make) -> Void in
-            make.width.height.equalTo(50)
+            make.width.equalTo(150)
+            make.height.equalTo(50)
             make.center.equalTo(self.view)
         }
     }
+    
+    
+    func swipe(_ sender: UISwipeGestureRecognizer) {
+        
+        print(sender.direction)
+        
+    }
+    
+    
     
 }
 

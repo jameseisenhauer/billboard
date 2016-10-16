@@ -1,0 +1,6 @@
+framework module Pods_billboardTests {
+  umbrella header "Pods-billboardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FBSnapshotTestCase.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-billboard.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-billboardTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,7 +32,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5DB46EA499F9A5E22765121102FCC34B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BAB3ADD8926B4751C754CADC1C712961</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F01A47364BE96113BBF46704A881F289</key>
 		<dict>
 			<key>primary</key>
 			<true/>
